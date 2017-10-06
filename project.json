@@ -1,0 +1,11 @@
+{
+  "name": "apex",
+  "description": "contains AWS resources to support slackbot",
+  "memory": 128,
+  "timeout": 5,
+  "profile": "serverless",
+  "role": "arn:aws:iam::441025416422:role/cd_releaser_global",
+  "environment": {
+    "ENV": "production"
+  }
+}
